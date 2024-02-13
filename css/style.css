@@ -104,7 +104,7 @@ body {
 .header {
   grid-column: full-start/ col-end 6;
   background-image: linear-gradient(rgba(16, 29, 44, 0.93), rgba(16, 29, 44, 0.93)), url(../img/hero.jpeg);
-  background-size: cover;
+  background-size: 101%, contain;
   background-position: center;
   padding: 4rem 6rem;
   display: grid;
